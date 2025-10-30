@@ -7,10 +7,12 @@ public class Main {
 
         System.out.print("Hello and welcome! \n");
 
+        System.out.println("Ascending Loop");
         for (int i = 1; i <= upperLimit; i++) {
             System.out.println("i = " + i);
         }
 
+        System.out.println("Descending Loop");
         for (int i = 100; i >= lowerLimit; i--) {
             System.out.println("i = " + i);
         }
